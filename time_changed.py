@@ -12,6 +12,9 @@ from datetime import datetime, timedelta
 #     elif value in ['KT', 'MPS', 'VRB']:
 #         return 999  # For invalid visibility, return a default value (999)
 #     return int(value)  # Fallback for other valid formats
+# # def parse_wind(value):
+#     """Parses wind value, ensuring it's a valid number."""
+#     if value.isdigit():
 
 def parse_temp(value):
     """Parses temperature values, handling 'M' for negative values."""
